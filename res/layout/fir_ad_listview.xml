@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/white"
+        />
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <View 
+            android:layout_width="8dp"
+            android:layout_height="match_parent"
+            />
+        <TextView 
+            android:id="@+id/tv_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:text="标签1"/>
+    </LinearLayout>
+	<View 
+    android:layout_width="match_parent"
+    android:layout_height="8dp"
+    />
+	<LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"    
+	     >
+	   <View 
+	    android:layout_width="8dp"
+	    android:layout_height="match_parent"
+    	/> 
+	<View 
+	    android:layout_width="wrap_content"
+	    android:layout_height="0.2dp"
+	    android:background="@color/lightgray"
+    />
+	 <View 
+	    android:layout_width="8dp"
+	    android:layout_height="match_parent"
+    	/> 
+	</LinearLayout>
+	<View 
+    android:layout_width="match_parent"
+    android:layout_height="8dp"
+    />
+    <HorizontalScrollView
+        android:id="@+id/app_grid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+            <com.tute.gridview.NoScrollGridView
+                android:id="@+id/gridview"
+                android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"		        
+               >                        
+            </com.tute.gridview.NoScrollGridView>
+        </LinearLayout>
+    </HorizontalScrollView>
+    
+</LinearLayout>

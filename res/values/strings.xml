@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">下拉刷新</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="main_1_1_1">季如文-Model</string>
+    <string name="main_1_1_2">女性模特第一名</string>
+    <string name="main_1_2_1">里昂青年-外拍</string>
+    <string name="main_1_2_2">男性外拍模特第一名</string>
+    <string name="main_1_3_1">leafstyle-广告创意</string>
+    <string name="main_1_3_2">广告创意第一名</string>
+    <string name="main_2_1_1">安一然ROG-体育摄影</string>
+    <string name="main_2_1_2">体育摄影第一名</string>
+    <string name="main_2_2_1">爱良安-学生</string>
+    <string name="main_2_2_2">校园生活第一名</string>
+    <string name="main_2_3_1">舞动空间-爸爸去哪</string>
+    <string name="main_2_3_2">娱乐记者第一名</string>
+    <string name="pull_to_refresh">下拉可以刷新</string>
+	<string name="release_to_refresh">释放立即刷新</string>
+	<string name="refreshing">正在刷新…</string>
+	<string name="not_updated_yet">暂未更新过</string>
+	<string name="updated_at">上次更新于%1$s前</string>
+	<string name="updated_just_now">刚刚更新</string>
+	<string name="time_error">时间有问题</string>
+
+	<string name="transparent">#000000</string>
+    <string name="white">#ffffff</string>
+</resources>
